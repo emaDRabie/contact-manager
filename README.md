@@ -25,4 +25,6 @@
 
 
 # Task ◖3◗ : Profile UI with Jetpack Compose
+**I understand that we haven't covered composition yet, but I have some background in it, and the AI provided slight assistance :)**
+
 <img src="PICs/compose.png" alt="Screenshot 1" width="40%">
