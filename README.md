@@ -7,5 +7,5 @@
 </div>
 
 
-###Demo
-[!Task one](GIFs/TaskOne.gif)
+### Demo
+![Task one](GIFs/TaskOne.gif)
