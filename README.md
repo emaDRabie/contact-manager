@@ -1,4 +1,4 @@
-# Task 1: Hello Android App 
+# Task ◖1◗: Hello Android App 
 
 <div style="display: flex; justify-content: space-between;">
     <img src="PICs/welcome_screen.png" alt="Screenshot 1" width="30%">
@@ -18,3 +18,11 @@
 - **onPause()**: Disables interaction while the activity is partially visible in the foreground.
 - **onStop()**: Moves the activity to the background, making it invisible.
 - **onDestroy()**: Removes the activity from memory, cleaning up resources.
+
+
+# Task ◖2◗ : Contact Manager UI (Static XML Screen)
+<img src="PICs/contact.png" alt="Screenshot 1" width="40%">
+
+
+# Task ◖3◗ : Profile UI with Jetpack Compose
+<img src="PICs/compose.png" alt="Screenshot 1" width="40%">
