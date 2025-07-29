@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ContactManager</string>
+    <string name="welcome_to_contact_manager_app">Welcome to Contact Manager App</string>
+    <string name="click_me">Click me</string>
+    <string name="back">Back</string>
+    <string name="this_is_second_activity">This is second Activity</string>
+    <string name="des">des</string>
+    <string name="contact_name_placeholder">Emad Rabie</string>
+    <string name="contact_notes_hint">Enter contact notes…</string>
+    <string name="save_contact_button">Save Contact</string>
+    <string name="contact_image_description">Contact photo</string>
+</resources>

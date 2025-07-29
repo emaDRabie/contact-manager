@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/root_padding"
+    tools:context=".two.ContactActivity">
+
+    <LinearLayout
+        android:id="@+id/contact_info_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivContactImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:contentDescription="@string/contact_image_description"
+            android:src="@drawable/person" />
+
+        <TextView
+            android:id="@+id/tvContactName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/contact_name_placeholder"
+            android:textColor="@color/contact_name_color"
+            android:textSize="@dimen/contact_name_text_size" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etContactNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:hint="@string/contact_notes_hint"
+        android:minLines="4"
+        android:padding="@dimen/default_padding"
+        android:textColor="@color/notes_text_color"
+        android:textSize="@dimen/notes_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contact_info_container" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSaveContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:background="@drawable/btn_shape"
+        android:fontFamily="@font/agbalumo"
+        android:padding="@dimen/button_padding"
+        android:text="@string/save_contact_button"
+        android:textColor="@color/button_text_color"
+        android:textSize="@dimen/button_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etContactNotes" />
+</androidx.constraintlayout.widget.ConstraintLayout>
